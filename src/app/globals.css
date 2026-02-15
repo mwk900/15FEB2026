@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-dark-bg: #0a0e27;
+  --color-dark-bg2: #151b3d;
+  --color-dark-accent: #00d9ff;
+  --color-dark-accent2: #7c3aed;
+  --color-dark-text: #f0f4ff;
+  --color-dark-text2: #a0aec0;
+  --color-dark-border: #2d3561;
+
+  --color-light-bg: #f8fafc;
+  --color-light-bg2: #f1f5f9;
+  --color-light-accent: #0066cc;
+  --color-light-accent2: #6d28d9;
+  --color-light-text: #1e293b;
+  --color-light-text2: #64748b;
+  --color-light-border: #cbd5e1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode (default) */
+body.dark {
+  background-color: var(--color-dark-bg);
+  color: var(--color-dark-text);
+}
+
+/* Light mode */
+body.light {
+  background-color: var(--color-light-bg);
+  color: var(--color-light-text);
+}
+
+/* Smooth theme transitions */
+body.dark *,
+body.light * {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus indicators for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--color-dark-accent);
+  outline-offset: 2px;
+}
+
+body.light *:focus-visible {
+  outline-color: var(--color-light-accent);
+}
+
+/* Selection colors */
+body.dark ::selection {
+  background-color: rgba(0, 217, 255, 0.3);
+}
+
+body.light ::selection {
+  background-color: rgba(0, 102, 204, 0.3);
+}

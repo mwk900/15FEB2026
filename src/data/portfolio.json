@@ -1,0 +1,116 @@
+{
+  "personal": {
+    "name": "[YOUR_NAME]",
+    "title": "[YOUR_TITLE]",
+    "bio": "[YOUR_BIO]",
+    "email": "[EMAIL]",
+    "image": "/images/profile.jpg",
+    "tagline": "Building digital experiences that make a difference"
+  },
+  "skills": [
+    "React",
+    "Design",
+    "Strategy",
+    "Problem Solving",
+    "Communication"
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "E-Commerce Platform",
+      "description": "A full-stack e-commerce platform with real-time inventory management and seamless checkout experience.",
+      "image": "/images/project-1.jpg",
+      "technologies": ["React", "Node.js", "PostgreSQL", "Stripe"],
+      "link": "#",
+      "category": "Web",
+      "featured": true
+    },
+    {
+      "id": "project-2",
+      "title": "Task Management App",
+      "description": "A collaborative project management tool with real-time updates and intuitive drag-and-drop interface.",
+      "image": "/images/project-2.jpg",
+      "technologies": ["Next.js", "TypeScript", "Prisma", "WebSocket"],
+      "link": "#",
+      "category": "Web",
+      "featured": true
+    },
+    {
+      "id": "project-3",
+      "title": "Brand Identity System",
+      "description": "Complete brand identity redesign including logo, typography, color system, and design guidelines.",
+      "image": "/images/project-3.jpg",
+      "technologies": ["Figma", "Illustrator", "Design Systems"],
+      "link": "#",
+      "category": "Design",
+      "featured": true
+    },
+    {
+      "id": "project-4",
+      "title": "Analytics Dashboard",
+      "description": "Interactive data visualization dashboard with customizable widgets and real-time metrics.",
+      "image": "/images/project-4.jpg",
+      "technologies": ["React", "D3.js", "Python", "REST API"],
+      "link": "#",
+      "category": "Web",
+      "featured": true
+    },
+    {
+      "id": "project-5",
+      "title": "Mobile Fitness App",
+      "description": "Cross-platform fitness tracking application with workout plans and progress visualization.",
+      "image": "/images/project-5.jpg",
+      "technologies": ["React Native", "Firebase", "Health API"],
+      "link": "#",
+      "category": "Mobile",
+      "featured": false
+    },
+    {
+      "id": "project-6",
+      "title": "Portfolio Template",
+      "description": "Project coming soon. Check back later!",
+      "image": "/images/project-6.jpg",
+      "technologies": ["Coming Soon"],
+      "link": "#",
+      "category": "Web",
+      "featured": false
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "getting-started-with-nextjs",
+      "title": "Getting Started with Next.js: A Practical Guide",
+      "date": "2026-02-10",
+      "category": "Learning",
+      "excerpt": "Next.js has become one of the go-to frameworks for building modern web applications. Here's what I learned diving into it and how it changed my development workflow.",
+      "readTime": "5 min read",
+      "image": "/images/blog-1.jpg",
+      "content": "Next.js has become one of the go-to frameworks for building modern web applications. When I first started exploring it, I was impressed by how it streamlines so many aspects of web development that used to require extensive configuration.\n\n## Why Next.js?\n\nThe appeal of Next.js lies in its opinionated yet flexible approach. Server-side rendering, static site generation, and API routes all come built-in. You don't need to piece together a routing library, a build tool, and a server framework separately.\n\n## Key Takeaways\n\n**File-based routing** is one of those features that sounds simple but dramatically improves developer experience. Instead of configuring route definitions, you just create files in the right directories.\n\n**Server Components** in the App Router changed how I think about data fetching. Being able to fetch data directly in components without useEffect or external state management libraries simplifies code significantly.\n\n**Image optimization** with next/image is another standout feature. Automatic lazy loading, responsive sizing, and format optimization happen with minimal configuration.\n\n## Getting Started Tips\n\n1. Start with the App Router — it's the future of Next.js\n2. Use TypeScript from the beginning\n3. Take advantage of built-in CSS support with Tailwind\n4. Learn the difference between Server and Client Components early\n\nThe learning curve is manageable, especially if you already know React. The documentation is excellent, and the community is active and helpful."
+    },
+    {
+      "slug": "design-principles-for-developers",
+      "title": "Design Principles Every Developer Should Know",
+      "date": "2026-02-01",
+      "category": "Insights",
+      "excerpt": "You don't need to be a designer to create beautiful interfaces. These fundamental design principles will elevate your frontend work immediately.",
+      "readTime": "7 min read",
+      "image": "/images/blog-2.jpg",
+      "content": "You don't need to be a designer to create beautiful interfaces. After years of working at the intersection of design and development, I've distilled the principles that make the biggest difference.\n\n## Whitespace Is Your Friend\n\nThe most common mistake developers make is cramming too much into too little space. Generous padding and margins make content more readable and interfaces feel more polished. When in doubt, add more space.\n\n## Consistency Over Creativity\n\nPick a system and stick with it. Use consistent spacing scales (4px, 8px, 16px, 24px, 32px), a limited color palette, and uniform typography. Consistency creates professionalism.\n\n## Hierarchy Guides the Eye\n\nEvery page should have a clear visual hierarchy. Users should immediately know what's most important. Use size, weight, color, and spacing to create distinct levels of importance.\n\n## Color With Purpose\n\nDon't use color just for decoration. Every color should serve a purpose:\n- **Primary actions** get your accent color\n- **Errors** use red tones\n- **Success** uses green tones\n- **Most text** stays neutral\n\n## Typography Matters More Than You Think\n\nGood typography alone can transform a mediocre interface into a professional one. Key rules:\n- Limit yourself to 2 fonts maximum\n- Use a clear size scale (e.g., 14px, 16px, 20px, 24px, 32px)\n- Line height of 1.5-1.7 for body text\n- Keep line lengths between 45-75 characters\n\n## The 60-30-10 Rule\n\nDistribute your colors roughly as:\n- 60% dominant color (background)\n- 30% secondary color (cards, sections)\n- 10% accent color (buttons, links, highlights)\n\nThese principles aren't about restricting creativity — they're about creating a solid foundation that makes everything else easier."
+    },
+    {
+      "slug": "building-my-portfolio",
+      "title": "Why I Built My Portfolio From Scratch",
+      "date": "2026-01-20",
+      "category": "Projects",
+      "excerpt": "A case study on building a portfolio website from scratch instead of using a template, and what I learned along the way.",
+      "readTime": "4 min read",
+      "image": "/images/blog-3.jpg",
+      "content": "When I decided to build a portfolio, I had a choice: use a template or build from scratch. I chose to build from scratch, and here's why that decision paid off.\n\n## The Case for Building Custom\n\nA portfolio is meant to showcase your skills. Using a template to do that felt counterintuitive. The portfolio itself is a project — arguably the most important one, since it's the first thing potential employers or clients see.\n\n## Tech Stack Decisions\n\nI went with **Next.js** for the framework, **Tailwind CSS** for styling, and **Framer Motion** for animations. This combination gives me:\n- Excellent performance out of the box\n- Rapid styling without context-switching\n- Professional animations without complexity\n\n## Lessons Learned\n\n**Start with content, not design.** I made the mistake of designing before knowing what content I'd include. Once I outlined my content first, the design decisions became much clearer.\n\n**Keep it simple.** My first version was overengineered with complex animations and elaborate layouts. I stripped it back to focus on clean presentation and easy navigation.\n\n**Performance matters.** A portfolio that loads slowly sends the wrong message. I focused on optimized images, minimal JavaScript, and efficient rendering.\n\n## What I'd Do Differently\n\nI'd plan the content structure more carefully upfront and build a component library before assembling pages. But overall, building from scratch was the right call — it gave me complete control and became a showcase piece itself."
+    }
+  ],
+  "social": {
+    "github": "[GITHUB_URL]",
+    "linkedin": "[LINKEDIN_URL]",
+    "twitter": "[TWITTER_URL]"
+  }
+}
