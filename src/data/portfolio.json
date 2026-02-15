@@ -1,0 +1,76 @@
+{
+  "site": {
+    "url": "https://[NETLIFY_SUBDOMAIN].netlify.app"
+  },
+  "personal": {
+    "name": "[YOUR_NAME]",
+    "title": "[YOUR_TITLE]",
+    "bio": "[YOUR_BIO]",
+    "email": "[EMAIL]",
+    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1200&q=80"
+  },
+  "skills": ["React", "Next.js", "Design", "Problem Solving", "Communication"],
+  "projects": [
+    {
+      "id": 1,
+      "title": "[PROJECT_NAME]",
+      "description": "[PROJECT_DESCRIPTION]",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80",
+      "technologies": ["Next.js", "Tailwind", "Framer Motion"],
+      "category": "Web",
+      "link": "[PROJECT_URL]"
+    },
+    {
+      "id": 2,
+      "title": "[PROJECT_NAME]",
+      "description": "Project coming soon. Check back later!",
+      "image": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=1200&q=80",
+      "technologies": ["React", "TypeScript"],
+      "category": "Web",
+      "link": "[PROJECT_URL]"
+    },
+    {
+      "id": 3,
+      "title": "[PROJECT_NAME]",
+      "description": "Project coming soon. Check back later!",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+      "technologies": ["Figma", "Strategy"],
+      "category": "Design",
+      "link": "[PROJECT_URL]"
+    }
+  ],
+  "social": {
+    "github": "[GITHUB_URL]",
+    "linkedin": "[LINKEDIN_URL]",
+    "twitter": "[TWITTER_URL]"
+  },
+  "blogPosts": [
+    {
+      "slug": "learning-from-shipping",
+      "title": "[BLOG_POST_TITLE]",
+      "category": "Learning",
+      "date": "2026-02-15",
+      "readTime": "6 min read",
+      "excerpt": "[BLOG_POST_CONTENT]",
+      "content": "This is a sample post template. Replace it with your own story about what you learned while building something meaningful."
+    },
+    {
+      "slug": "project-case-study",
+      "title": "[BLOG_POST_TITLE]",
+      "category": "Projects",
+      "date": "2026-02-10",
+      "readTime": "7 min read",
+      "excerpt": "Share your process, constraints, and outcomes for a project.",
+      "content": "Use this format for project case studies: challenge, approach, implementation details, and lessons learned."
+    },
+    {
+      "slug": "industry-insight",
+      "title": "[BLOG_POST_TITLE]",
+      "category": "Insights",
+      "date": "2026-02-05",
+      "readTime": "5 min read",
+      "excerpt": "Discuss trends that matter to your audience.",
+      "content": "Keep insights concise and actionable. Add references, examples, and your personal perspective."
+    }
+  ]
+}
