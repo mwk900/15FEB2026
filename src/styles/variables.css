@@ -1,0 +1,19 @@
+:root {
+  --color-bg-primary: #0a0e27;
+  --color-bg-secondary: #151b3d;
+  --color-accent: #00d9ff;
+  --color-secondary-accent: #7c3aed;
+  --color-text-primary: #f0f4ff;
+  --color-text-secondary: #a0aec0;
+  --color-border: #2d3561;
+}
+
+[data-theme='light'] {
+  --color-bg-primary: #f8fafc;
+  --color-bg-secondary: #f1f5f9;
+  --color-accent: #0066cc;
+  --color-secondary-accent: #6d28d9;
+  --color-text-primary: #1e293b;
+  --color-text-secondary: #64748b;
+  --color-border: #cbd5e1;
+}
