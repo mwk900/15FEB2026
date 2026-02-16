@@ -1,111 +1,195 @@
 {
   "personal": {
-    "name": "[YOUR_NAME]",
-    "title": "[YOUR_TITLE]",
-    "bio": "[YOUR_BIO]",
+    "name": "MWK Web Studio",
+    "title": "Web Designer & Developer for Local Businesses",
+    "bio": "I design and build responsive websites with clear messaging, smooth UX, and simple contact flows — so customers can find you and reach you easily.",
     "email": "[EMAIL]",
     "image": "/images/profile.jpg",
-    "tagline": "Building digital experiences that make a difference"
+    "tagline": "Modern websites for local businesses — designed to convert."
   },
   "skills": [
-    "React",
-    "Design",
-    "Strategy",
-    "Problem Solving",
-    "Communication"
+    "Responsive Web Design",
+    "Next.js & React",
+    "Tailwind CSS",
+    "SEO Fundamentals",
+    "Netlify Deployment"
+  ],
+  "services": [
+    {
+      "title": "Small Business Websites",
+      "description": "A clean, professional website that tells customers who you are, what you do, and how to reach you. Mobile-friendly, fast-loading, and ready for search engines.",
+      "icon": "globe"
+    },
+    {
+      "title": "Landing Pages",
+      "description": "Single-page sites designed to drive a specific action — whether that's booking a call, filling out a form, or requesting a quote.",
+      "icon": "target"
+    },
+    {
+      "title": "Website Refresh / Redesign",
+      "description": "Already have a site that feels outdated or doesn't work well on mobile? I'll modernise the design, improve the layout, and make sure it loads fast.",
+      "icon": "refresh"
+    },
+    {
+      "title": "Ongoing Support",
+      "description": "Need content updates, bug fixes, or small improvements after launch? I offer affordable ongoing support so your site stays current.",
+      "icon": "support"
+    }
+  ],
+  "process": [
+    {
+      "step": 1,
+      "title": "Discovery",
+      "description": "30–60 minute call to understand your business, goals, and what you need from the site.",
+      "timeline": "Day 1"
+    },
+    {
+      "step": 2,
+      "title": "First Demo",
+      "description": "You'll see a working version of your site within 48 hours — not a static mockup, a real website you can click through.",
+      "timeline": "Within 48 hours"
+    },
+    {
+      "step": 3,
+      "title": "Refinements",
+      "description": "1–2 revision rounds to adjust copy, layout, colours, or anything else until you're happy.",
+      "timeline": "1–3 days"
+    },
+    {
+      "step": 4,
+      "title": "Launch",
+      "description": "I deploy your site on Netlify, connect your domain, and make sure everything is live and working.",
+      "timeline": "Same day"
+    },
+    {
+      "step": 5,
+      "title": "Optional Support",
+      "description": "After launch, I'm available for content updates, tweaks, or adding new features as your business grows.",
+      "timeline": "Ongoing"
+    }
   ],
   "projects": [
     {
-      "id": "project-1",
-      "title": "E-Commerce Platform",
-      "description": "A full-stack e-commerce platform with real-time inventory management and seamless checkout experience.",
-      "image": "/images/project-1.jpg",
-      "technologies": ["React", "Node.js", "PostgreSQL", "Stripe"],
-      "link": "#",
-      "category": "Web",
-      "featured": true
+      "id": "mechanik01",
+      "title": "Auto Repair Workshop Demo",
+      "description": "A modern website demo for a local auto repair garage, designed to help customers find services and get in touch quickly.",
+      "image": "/images/project-mechanik.jpg",
+      "technologies": ["HTML/CSS", "Responsive Design", "Netlify"],
+      "link": "https://mechanik01.netlify.app/",
+      "url": "https://mechanik01.netlify.app/",
+      "category": "Local Business",
+      "featured": true,
+      "features": [
+        "Responsive layout for mobile and desktop",
+        "Clear service listings",
+        "Contact section for enquiries",
+        "Clean, professional design",
+        "Fast-loading static site"
+      ]
     },
     {
-      "id": "project-2",
-      "title": "Task Management App",
-      "description": "A collaborative project management tool with real-time updates and intuitive drag-and-drop interface.",
-      "image": "/images/project-2.jpg",
-      "technologies": ["Next.js", "TypeScript", "Prisma", "WebSocket"],
-      "link": "#",
-      "category": "Web",
-      "featured": true
+      "id": "soniaclaud01",
+      "title": "Veterinary Clinic Demo",
+      "description": "A welcoming website demo for a veterinary practice, featuring service information, team profiles, and easy-to-find contact details.",
+      "image": "/images/project-sonia.jpg",
+      "technologies": ["HTML/CSS", "Responsive Design", "Netlify"],
+      "link": "https://soniaclaud01.netlify.app/",
+      "url": "https://soniaclaud01.netlify.app/",
+      "category": "Local Business",
+      "featured": true,
+      "features": [
+        "Responsive mobile-friendly layout",
+        "Service and team information sections",
+        "Contact section with clear call-to-action",
+        "Professional visual design",
+        "Smooth page navigation"
+      ]
     },
     {
-      "id": "project-3",
-      "title": "Brand Identity System",
-      "description": "Complete brand identity redesign including logo, typography, color system, and design guidelines.",
-      "image": "/images/project-3.jpg",
-      "technologies": ["Figma", "Illustrator", "Design Systems"],
-      "link": "#",
-      "category": "Design",
-      "featured": true
+      "id": "mwk002",
+      "title": "Business Portfolio Demo",
+      "description": "A sleek portfolio-style site demo showcasing services, project highlights, and contact options for a professional business.",
+      "image": "/images/project-mwk002.jpg",
+      "technologies": ["Next.js", "Tailwind CSS", "Framer Motion", "Netlify"],
+      "link": "https://mwk002.netlify.app/",
+      "url": "https://mwk002.netlify.app/",
+      "category": "Portfolio",
+      "featured": true,
+      "features": [
+        "Dark and light mode toggle",
+        "Responsive design across all devices",
+        "Animated page transitions",
+        "Contact form with validation",
+        "Clean, minimalist layout"
+      ]
     },
     {
-      "id": "project-4",
-      "title": "Analytics Dashboard",
-      "description": "Interactive data visualization dashboard with customizable widgets and real-time metrics.",
-      "image": "/images/project-4.jpg",
-      "technologies": ["React", "D3.js", "Python", "REST API"],
-      "link": "#",
-      "category": "Web",
-      "featured": true
+      "id": "soniagpt",
+      "title": "Professional Services Demo",
+      "description": "A clean, modern website demo for a professional services business with clear messaging and easy navigation.",
+      "image": "/images/project-soniagpt.jpg",
+      "technologies": ["HTML/CSS", "Responsive Design", "Netlify"],
+      "link": "https://soniagpt.netlify.app/",
+      "url": "https://soniagpt.netlify.app/",
+      "category": "Local Business",
+      "featured": true,
+      "features": [
+        "Responsive mobile-first design",
+        "Clear business messaging",
+        "Simple contact flow",
+        "Fast page load times",
+        "Professional typography and layout"
+      ]
     },
     {
-      "id": "project-5",
-      "title": "Mobile Fitness App",
-      "description": "Cross-platform fitness tracking application with workout plans and progress visualization.",
-      "image": "/images/project-5.jpg",
-      "technologies": ["React Native", "Firebase", "Health API"],
-      "link": "#",
-      "category": "Mobile",
-      "featured": false
-    },
-    {
-      "id": "project-6",
-      "title": "Portfolio Template",
-      "description": "Project coming soon. Check back later!",
-      "image": "/images/project-6.jpg",
-      "technologies": ["Coming Soon"],
-      "link": "#",
-      "category": "Web",
-      "featured": false
+      "id": "mwk001",
+      "title": "Creative Portfolio Demo",
+      "description": "A modern portfolio demo site with smooth animations, project showcases, and a polished dark theme.",
+      "image": "/images/project-mwk001.jpg",
+      "technologies": ["Next.js", "Tailwind CSS", "Framer Motion", "Netlify"],
+      "link": "https://mwk001.netlify.app/",
+      "url": "https://mwk001.netlify.app/",
+      "category": "Portfolio",
+      "featured": true,
+      "features": [
+        "Dark and light mode support",
+        "Smooth scroll animations",
+        "Responsive across all screen sizes",
+        "Project showcase grid",
+        "Contact form integration"
+      ]
     }
   ],
   "blogPosts": [
     {
-      "slug": "getting-started-with-nextjs",
-      "title": "Getting Started with Next.js: A Practical Guide",
-      "date": "2026-02-10",
-      "category": "Learning",
-      "excerpt": "Next.js has become one of the go-to frameworks for building modern web applications. Here's what I learned diving into it and how it changed my development workflow.",
-      "readTime": "5 min read",
-      "image": "/images/blog-1.jpg",
-      "content": "Next.js has become one of the go-to frameworks for building modern web applications. When I first started exploring it, I was impressed by how it streamlines so many aspects of web development that used to require extensive configuration.\n\n## Why Next.js?\n\nThe appeal of Next.js lies in its opinionated yet flexible approach. Server-side rendering, static site generation, and API routes all come built-in. You don't need to piece together a routing library, a build tool, and a server framework separately.\n\n## Key Takeaways\n\n**File-based routing** is one of those features that sounds simple but dramatically improves developer experience. Instead of configuring route definitions, you just create files in the right directories.\n\n**Server Components** in the App Router changed how I think about data fetching. Being able to fetch data directly in components without useEffect or external state management libraries simplifies code significantly.\n\n**Image optimization** with next/image is another standout feature. Automatic lazy loading, responsive sizing, and format optimization happen with minimal configuration.\n\n## Getting Started Tips\n\n1. Start with the App Router — it's the future of Next.js\n2. Use TypeScript from the beginning\n3. Take advantage of built-in CSS support with Tailwind\n4. Learn the difference between Server and Client Components early\n\nThe learning curve is manageable, especially if you already know React. The documentation is excellent, and the community is active and helpful."
-    },
-    {
-      "slug": "design-principles-for-developers",
-      "title": "Design Principles Every Developer Should Know",
-      "date": "2026-02-01",
+      "slug": "why-every-local-business-needs-a-website",
+      "title": "Why Every Local Business Needs a Website in 2026",
+      "date": "2026-02-12",
       "category": "Insights",
-      "excerpt": "You don't need to be a designer to create beautiful interfaces. These fundamental design principles will elevate your frontend work immediately.",
-      "readTime": "7 min read",
-      "image": "/images/blog-2.jpg",
-      "content": "You don't need to be a designer to create beautiful interfaces. After years of working at the intersection of design and development, I've distilled the principles that make the biggest difference.\n\n## Whitespace Is Your Friend\n\nThe most common mistake developers make is cramming too much into too little space. Generous padding and margins make content more readable and interfaces feel more polished. When in doubt, add more space.\n\n## Consistency Over Creativity\n\nPick a system and stick with it. Use consistent spacing scales (4px, 8px, 16px, 24px, 32px), a limited color palette, and uniform typography. Consistency creates professionalism.\n\n## Hierarchy Guides the Eye\n\nEvery page should have a clear visual hierarchy. Users should immediately know what's most important. Use size, weight, color, and spacing to create distinct levels of importance.\n\n## Color With Purpose\n\nDon't use color just for decoration. Every color should serve a purpose:\n- **Primary actions** get your accent color\n- **Errors** use red tones\n- **Success** uses green tones\n- **Most text** stays neutral\n\n## Typography Matters More Than You Think\n\nGood typography alone can transform a mediocre interface into a professional one. Key rules:\n- Limit yourself to 2 fonts maximum\n- Use a clear size scale (e.g., 14px, 16px, 20px, 24px, 32px)\n- Line height of 1.5-1.7 for body text\n- Keep line lengths between 45-75 characters\n\n## The 60-30-10 Rule\n\nDistribute your colors roughly as:\n- 60% dominant color (background)\n- 30% secondary color (cards, sections)\n- 10% accent color (buttons, links, highlights)\n\nThese principles aren't about restricting creativity — they're about creating a solid foundation that makes everything else easier."
+      "excerpt": "Even if your customers come through word-of-mouth, a professional website gives people a place to check you out before they call. Here's why it matters.",
+      "readTime": "4 min read",
+      "image": "/images/blog-1.jpg",
+      "content": "Even if your customers come through word-of-mouth, a professional website gives people a place to check you out before they call.\n\n## The Reality for Local Businesses\n\nMost people will search for your business online before they decide to visit or call. If they can't find a website — or if they find one that looks outdated — they'll move on to the next option. A clean, modern website is table stakes in 2026.\n\n## What a Good Website Does\n\n**It answers basic questions.** What do you do? Where are you located? How do I contact you? When are you open? If your website answers these clearly, you've already won half the battle.\n\n**It builds trust.** A professional-looking site signals that you take your business seriously. It doesn't need to be flashy — it needs to be clear, fast, and mobile-friendly.\n\n**It works while you sleep.** Unlike a social media post that disappears in a feed, your website is always there. Someone searching at 11pm on a Sunday will find your services, your contact form, and your opening hours.\n\n## What You Actually Need\n\nYou don't need 50 pages. Most local businesses do well with:\n- A homepage that explains what you do\n- A services page with clear descriptions\n- A contact page with a form and your details\n- Mobile-friendly design that loads fast\n\n## The Bottom Line\n\nA website isn't a luxury — it's the simplest way to make sure people who are already looking for your service can actually find you and reach you."
     },
     {
-      "slug": "building-my-portfolio",
-      "title": "Why I Built My Portfolio From Scratch",
-      "date": "2026-01-20",
+      "slug": "what-makes-a-website-convert",
+      "title": "What Actually Makes a Website Convert Visitors Into Enquiries",
+      "date": "2026-02-05",
+      "category": "Insights",
+      "excerpt": "It's not about fancy animations or trendy design. The websites that get the most enquiries share a few simple traits.",
+      "readTime": "5 min read",
+      "image": "/images/blog-2.jpg",
+      "content": "It's not about fancy animations or trendy design. The websites that get the most enquiries share a few simple traits.\n\n## Clear Headline, Clear Value\n\nVisitors decide within seconds whether they're in the right place. Your homepage headline should tell them exactly what you do and who you do it for. No jargon, no cleverness — just clarity.\n\n## Obvious Contact Options\n\nIf someone has to scroll through five pages to find your phone number or contact form, you've already lost them. Put your contact information where people expect it: in the header, in the footer, and on a dedicated contact page.\n\n## Mobile-First Thinking\n\nMore than half of web traffic comes from phones. If your site doesn't work well on a small screen, you're turning away the majority of your potential customers. Test your site on your own phone. If anything feels awkward, fix it.\n\n## Speed Matters\n\nEvery second of loading time increases the chance someone will leave. Fast-loading sites aren't just better for users — they rank better in search results too.\n\n## Trust Signals\n\nPeople want to know they're dealing with someone real. Include:\n- Your actual business name and location\n- Real photos if possible\n- Clear descriptions of what you offer\n- A professional email or contact form\n\n## The Simple Test\n\nAsk someone who doesn't know your business to look at your site for 10 seconds. Then ask them: What does this business do? How would you contact them? If they can't answer both immediately, there's work to do."
+    },
+    {
+      "slug": "building-websites-fast-without-cutting-corners",
+      "title": "How I Build Websites Fast Without Cutting Corners",
+      "date": "2026-01-25",
       "category": "Projects",
-      "excerpt": "A case study on building a portfolio website from scratch instead of using a template, and what I learned along the way.",
+      "excerpt": "Clients often ask how I can deliver a working demo within 48 hours. Here's how efficient modern tools and a clear process make it possible.",
       "readTime": "4 min read",
       "image": "/images/blog-3.jpg",
-      "content": "When I decided to build a portfolio, I had a choice: use a template or build from scratch. I chose to build from scratch, and here's why that decision paid off.\n\n## The Case for Building Custom\n\nA portfolio is meant to showcase your skills. Using a template to do that felt counterintuitive. The portfolio itself is a project — arguably the most important one, since it's the first thing potential employers or clients see.\n\n## Tech Stack Decisions\n\nI went with **Next.js** for the framework, **Tailwind CSS** for styling, and **Framer Motion** for animations. This combination gives me:\n- Excellent performance out of the box\n- Rapid styling without context-switching\n- Professional animations without complexity\n\n## Lessons Learned\n\n**Start with content, not design.** I made the mistake of designing before knowing what content I'd include. Once I outlined my content first, the design decisions became much clearer.\n\n**Keep it simple.** My first version was overengineered with complex animations and elaborate layouts. I stripped it back to focus on clean presentation and easy navigation.\n\n**Performance matters.** A portfolio that loads slowly sends the wrong message. I focused on optimized images, minimal JavaScript, and efficient rendering.\n\n## What I'd Do Differently\n\nI'd plan the content structure more carefully upfront and build a component library before assembling pages. But overall, building from scratch was the right call — it gave me complete control and became a showcase piece itself."
+      "content": "Clients often ask how I can deliver a working demo within 48 hours. The short answer: modern tools and a clear process.\n\n## The Stack\n\nI build with **Next.js**, **Tailwind CSS**, and **Framer Motion**. This combination lets me work quickly without sacrificing quality. Tailwind handles styling without writing custom CSS for every element. Next.js gives me routing, performance optimisation, and deployment tools built-in. Framer Motion adds professional animations with minimal code.\n\n## The Process\n\nSpeed doesn't come from rushing — it comes from knowing what to do and in what order.\n\n**Step 1: Content first.** Before I write any code, I work with the client to nail down the key messages, pages, and calls-to-action. This prevents the most common time-waster: designing something and then realising the content doesn't fit.\n\n**Step 2: Component-based building.** I use a library of tested, responsive components — headers, hero sections, contact forms, project grids. Each one is customised to match the client's brand, but I'm not rebuilding from zero every time.\n\n**Step 3: Real deployments from day one.** I deploy to Netlify immediately, so the client can see their site on a real URL within 48 hours. No static mockups, no \"imagine this on a phone\" — a real, clickable website.\n\n## Why This Works for Clients\n\nYou get a working site fast, you can give feedback on something real (not a PDF), and we iterate from there. Most small business sites are delivered in 3–7 days depending on feedback and scope.\n\n## No Corners Cut\n\nFast doesn't mean sloppy. Every site gets responsive testing, accessibility basics, performance checks, and clean code. The speed comes from efficient tools and a repeatable process — not from skipping steps."
     }
   ],
   "social": {

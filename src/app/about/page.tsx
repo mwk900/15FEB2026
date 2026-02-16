@@ -42,26 +42,9 @@ export default function AboutPage() {
                   : "border-light-border bg-light-bg2 text-light-accent"
               }`}
             >
-              {portfolioData.personal.name === "[YOUR_NAME]" ? (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="64"
-                  height="64"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                  <circle cx="12" cy="7" r="4" />
-                </svg>
-              ) : (
-                <span className="text-5xl font-bold">
-                  {portfolioData.personal.name.charAt(0)}
-                </span>
-              )}
+              <span className="text-5xl font-bold">
+                {portfolioData.personal.name.charAt(0)}
+              </span>
             </div>
           </div>
 
@@ -72,28 +55,24 @@ export default function AboutPage() {
                 isDark ? "text-dark-text" : "text-light-text"
               }`}
             >
-              {portfolioData.personal.name === "[YOUR_NAME]"
-                ? "Hi, I'm [Your Name]"
-                : `Hi, I'm ${portfolioData.personal.name}`}
+              {`About ${portfolioData.personal.name}`}
             </h2>
             <p
               className={`text-lg mb-4 ${
                 isDark ? "text-dark-text2" : "text-light-text2"
               }`}
             >
-              {portfolioData.personal.bio === "[YOUR_BIO]"
-                ? "I'm a [profession/title] passionate about [what excites you]. I create [what you create] that [value proposition]."
-                : portfolioData.personal.bio}
+              {portfolioData.personal.bio}
             </p>
             <p
               className={`mb-6 ${
                 isDark ? "text-dark-text2" : "text-light-text2"
               }`}
             >
-              With a focus on clean code and user-centric design, I strive to
-              build products that are not only functional but delightful to use.
-              My journey in tech has been driven by curiosity and a love for
-              solving complex problems with elegant solutions.
+              I work with local businesses to build modern, responsive websites
+              that help them get found online and convert visitors into enquiries.
+              Using efficient modern tools and a clear process, I deliver working
+              demos fast and iterate based on real feedback.
             </p>
             <div className="flex gap-4">
               <Link

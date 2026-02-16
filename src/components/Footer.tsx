@@ -25,9 +25,7 @@ export default function Footer() {
                 isDark ? "text-dark-text" : "text-light-text"
               }`}
             >
-              {portfolioData.personal.name === "[YOUR_NAME]"
-                ? "Portfolio"
-                : portfolioData.personal.name}
+              {portfolioData.personal.name}
             </Link>
             <p
               className={`mt-2 text-sm ${
@@ -36,6 +34,16 @@ export default function Footer() {
             >
               {portfolioData.personal.tagline}
             </p>
+            <Link
+              href="/contact"
+              className={`mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-medium transition-all hover:scale-[1.02] ${
+                isDark
+                  ? "bg-dark-accent text-dark-bg hover:bg-dark-accent/90"
+                  : "bg-light-accent text-white hover:bg-light-accent/90"
+              }`}
+            >
+              Get a Quote
+            </Link>
           </div>
 
           {/* Quick Links */}
@@ -48,25 +56,29 @@ export default function Footer() {
               Navigation
             </h3>
             <div className="flex flex-col gap-2">
-              {["Home", "About", "Portfolio", "Blog", "Contact"].map(
-                (item) => (
-                  <Link
-                    key={item}
-                    href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
-                    className={`text-sm transition-colors ${
-                      isDark
-                        ? "text-dark-text2 hover:text-dark-accent"
-                        : "text-light-text2 hover:text-light-accent"
-                    }`}
-                  >
-                    {item}
-                  </Link>
-                )
-              )}
+              {[
+                { label: "Home", href: "/" },
+                { label: "Projects", href: "/portfolio" },
+                { label: "Blog", href: "/blog" },
+                { label: "About", href: "/about" },
+                { label: "Contact", href: "/contact" },
+              ].map((item) => (
+                <Link
+                  key={item.label}
+                  href={item.href}
+                  className={`text-sm transition-colors ${
+                    isDark
+                      ? "text-dark-text2 hover:text-dark-accent"
+                      : "text-light-text2 hover:text-light-accent"
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              ))}
             </div>
           </div>
 
-          {/* Social */}
+          {/* Connect */}
           <div>
             <h3
               className={`text-sm font-semibold uppercase tracking-wider mb-3 ${
@@ -148,11 +160,7 @@ export default function Footer() {
               : "border-light-border text-light-text2"
           }`}
         >
-          &copy; {year}{" "}
-          {portfolioData.personal.name === "[YOUR_NAME]"
-            ? "Portfolio"
-            : portfolioData.personal.name}
-          . All rights reserved.
+          &copy; {year} {portfolioData.personal.name}. All rights reserved.
         </div>
       </div>
     </footer>

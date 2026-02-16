@@ -4,7 +4,7 @@ import portfolioData from "@/data/portfolio.json";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://example.com";
+  const baseUrl = "https://mwk000.netlify.app";
 
   const blogPosts = portfolioData.blogPosts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
